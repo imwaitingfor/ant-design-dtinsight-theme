@@ -7,7 +7,7 @@ import { AutoComplete, Row, Col, Radio } from 'antd';
 import config from '../../../bisheng.config';
 import * as utils from '../utils';
 
-const Option = AutoComplete.Option;
+const Option = Select.Option;
 const searchEngine = 'Google';
 const searchLink = 'https://www.google.com/#q=site:ant.design+';
 
@@ -124,7 +124,7 @@ export default class Header extends React.Component {
                                     <FormattedMessage id="app.header.search" />
                                 </Option>
                                 {options}
-                            </AutoComplete>
+                            </Select>
                         </div>
                         {menuMode === 'horizontal' ? menu : null}
                     </Col>
