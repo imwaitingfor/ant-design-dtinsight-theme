@@ -22,11 +22,16 @@
   "author": "dt-insight-front",
   "license": "ISC",
   "dependencies": {
-    "antd": "3.26.20"
+    "@ant-design/compatible": "^1.1.0",
+    "@ant-design/icons": "^4.7.0",
+    "ant-design-dtinsight-theme": "^1.1.5",
+    "antd": "4.19.2",
+    "react": "16.9.0",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/runtime": "^7.4.4",
-    "bisheng": "^1.2.4",
+    "bisheng": "3.0.0",
     "bisheng-plugin-antd": "^1.0.1",
     "bisheng-plugin-react": "^1.0.0",
     "bisheng-plugin-toc": "^0.4.4",
